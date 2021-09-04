@@ -1,0 +1,40 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+}
+
+.media:hover {
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 11px #fff,
+    0 0 22px rgb(203, 33, 255), 0 0 12px rgb(203, 33, 255),
+    0 0 34px rgb(203, 33, 255), 0 0 32px rgb(203, 33, 255),
+    0 0 56px rgb(203, 33, 255);
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+.poster {
+  border-radius: 10px;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 1rem 0;
+}
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}

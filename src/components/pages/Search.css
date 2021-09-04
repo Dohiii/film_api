@@ -1,0 +1,7 @@
+.MuiTabs-flexContainer {
+  font-display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
